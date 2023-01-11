@@ -5,8 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7ds grand cross</title>
+    <link rel="stylesheet" href="./css/app.css"> 
 </head>
 <body>
-    
+    <header class="Header">
+        <div class="Header-logo">
+            <a class="Header-a" href="#" target="_blank">Netmarble</a>
+        </div>  
+        <div class="Header-menu">
+        <button class="Header-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list Header-svg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg> 
+            </button>
+        </div>
+        <div class="Header-izq">
+            <button class="Header-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x Header-svg" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </button>
+            <button class="Header-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube Header-svg" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                  </svg>
+            </button>
+            <button class="Header-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook Header-svg" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg> 
+            </button> 
+            <ul class="Header-ul">
+                <li class="Header-li"><a href="#" class="Header-a">PRINCIPAL</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">ACERCA DEL JUEGO</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">HISTORIA</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">PERSONAJE</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">CONTENIDO</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">COMUNIDAD</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">FACEBOOK</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">YOUTUBE</a></li>
+                <li class="Header-li"><a href="#" class="Header-a">MANGA</a></li>
+            </ul>
+            <a href="#" class="Header-a">
+                esto sera una imagen
+            </a>
+        </div>
+    </header>
+
+    <main class="Main">
+
+        <section class="Principal"> 
+            <video 
+            autoplay
+            muted
+            loop 
+            playsinline 
+            src="./media/43da00a.mp4" class="Principal-video"></video>
+            <div class="Principal-spaceSlide">
+                <div class="Principal-slide">
+                    <img src="./image/slide1.jpg" alt="" class="Principal-img">
+                    <img src="./image/slide2.jpg" alt="" class="Principal-img">
+                </div>
+
+                <div class="Principal-btnSlide">
+                    <button class="Principal-btn">▼</button>
+                    <button class="Principal-btn">▼</button>   
+                </div>
+            </div>
+
+            <div class="Principal-title">
+                <h1 class="Principal-h1">The Seven Deadly Sins: Grand Cross - Netmarble</h1>
+                <img src="./image/7ds-title.png" alt="" class="Principal-titleImg"> 
+            </div>
+
+            <div class="Principal-text">
+                <h3 class="Principal-h3">El cliente para PC ya esta disponible!</h3>
+                <p class="Principal-p">
+                    &Uacute;nete a la aventura en una pantalla de mayor tama&ntilde;o!
+                </p>
+                <p class="Principal-p">
+                    [Los Seven Deadly Sins] llega a tu m&oacute;vil! Acompa&ntilde;a a los protagonistas en este magn&iacute;fico RPG de aventuras.
+                </p>
+                <h3 class="Principal-h3">
+                    Desc&aacute;rgalo ya!
+                </h3>
+            </div>
+        </section> 
+        <section class="Boletin">
+            <h3 class="Boletin-h3">Bolet&iacute;n de The Seven Deadly Sins: Grand Cross</h3>
+            <p class="Boletin-p">Ent&eacute;rate de las &uacute;ltimas noticias y recive un cup&oacute;n especial antes que nadie!</p>
+            <div class="Boletin-form">
+                <form action="#">
+                    <input type="email" id="Boletin-correo" placeholder="Introduce tu correo electronico">  
+                    <input type="checkbox" name="check" id="Boletin-cond" > condiciones
+                    <input type="submit" id="Boletin-submit" value="Suscripci&oacute;n al bolet&iacute;n" >
+                </form> 
+            </div>
+            
+        </section>
+        <section class="Banners">
+            <h3 class="Banners-h3">Presentamos The Seven Deadly Sins: Grand Cross</h3>
+            <div class="Banners-bann"><a href="" class="Banners-a"><span class="Banners-span">HISTORIA</span><img src="./image/banner-merlin.png" alt="" class="Banners-img"></a></div>
+            <div class="Banners-bann"><a href="" class="Banners-a"><span class="Banners-span">PERSONAJE</span><img src="./image/banner-merlin.png" alt="" class="Banners-img"></a></div>
+            <div class="Banners-bann"><a href="" class="Banners-a"><span class="Banners-span">CONTENIDO</span><img src="./image/banner-merlin.png" alt="" class="Banners-img"></a></div>
+            <div class="Banners-bann"><a href="" class="Banners-a"><span class="Banners-span">COMUNIDAD</span><img src="./image/banner-merlin.png" alt="" class="Banners-img"></a></div>
+            <div class="Banners-bann"><a href="" class="Banners-a"><span class="Banners-span">MANGA</span><img src="./image/banner-merlin.png" alt="" class="Banners-img"></a></div>
+        </section> 
+
+        <section class="Elizabeth">
+
+            <h3 class="Elizabeth-h3">Descarga The Seven Deadly Sins: Grand Cross</h3>
+
+            <a href="" class="Elizabeth-a"><img src="./image/descarga beta elizabeth.png" alt="" class="Elizabeth-img"></a>
+
+            <a href="" class="Elizabeth-a"><img src="./image/iphoneStore.png" alt="" class="Elizabeth-img"></a>
+
+            <a href="" class="Elizabeth-a"><img src="./image/GooglePlay.png" alt="" class="Elizabeth-img"></a>
+
+            <span class="Elizabeth-span">Click Here!</span>
+            <img src="./image/elizabeth.png" alt="" class="Elizabeth-eli"> 
+
+        </section>
+
+    </main>
+
+    <footer class="Footer">
+        <div class="Footer-rrss">
+
+        </div>
+        <div class="Footer-tm">
+            <a href="#" class="Footer-a"><img src="./image/gnb_logo.png" alt="" class="Footer-img"></a>
+            <h3 class="Footer-h3">Terms and Conditions / Privacy Policy</h3>
+            <span class="Footer-span">Based on the manga “The Seven Deadly Sins” by Nakaba Suzuki originally serialized in the weekly SHONEN MAGAZINE published by Kodansha Ltd.©Nakaba Suzuki, KODANSHA/The Seven Deadly Sins: Revival of the Commandments Project,MBS. All Rights Reserved.©Nakaba Suzuki, KODANSHA/The Seven Deadly Sins: Dragon's Judgement Production Committee, TX©Netmarble Corp. & Netmarble F&C Inc. All Rights Reserved.</span>
+        </div> 
+
+
+        
+
+    </footer>
 </body>
 </html>

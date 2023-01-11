@@ -1,0 +1,43 @@
+@import '../partails/mixins';
+.Header{
+    &-logo{
+        background: red;  
+        max-height: 20%;   
+        color: #fff;  
+        font-size: 1.2em; 
+         
+    } 
+
+    &-menu{  
+        margin: 1.25rem; 
+        position: absolute;  
+        z-index: 1;
+    }
+    &-svg{
+
+    }
+    &-izq{
+        left: -100%;  
+        width: 40%; 
+        height: 100vh;
+        position: absolute;  
+        z-index: 1;  
+        background: #fff ;
+    }
+    &-btn{ 
+        background: transparent;   
+        color: white;  
+    }
+    &-svg{
+
+    }
+    &-ul{
+
+    }
+    &-li{
+        @include flex(column, nowrap , center, center)  
+    }
+    &-a{
+        @include flex(column, nowrap , flex-start, center)  
+    }   
+} 
