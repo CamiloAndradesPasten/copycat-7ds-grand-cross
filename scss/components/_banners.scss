@@ -1,0 +1,39 @@
+@import '../partails/_mixins.scss';
+
+.Banners{
+    background-image: url(../../image/bg-banners.jpg); 
+    @include flex (column, nowrap, center, center); 
+     
+    background-size: cover; 
+    color: #fff;
+    padding: 150px 0;        
+    &-h3{
+        font-size: 3rem ;  
+        padding-bottom: 150px;   
+        text-align: center;  
+         
+    } 
+    &-bann{
+        
+        
+    }
+    &-a{
+        @include flex (column, nowrap , center, flex-start); 
+        width: 100%;
+        margin: .9375rem 0;    
+         
+    }
+    &-span{ 
+        
+        position: absolute;
+        font-size: 3rem; 
+        margin-left: .9375rem ;   
+
+    } 
+    &-img{  
+        min-height: 10.75rem; 
+        min-width: 250px;  
+        box-shadow: 0rem .3125rem 3.125rem #000 ;
+        object-fit:fill;        
+    }   
+}  

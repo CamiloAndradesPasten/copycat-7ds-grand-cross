@@ -1,0 +1,69 @@
+@import '../partails/_mixins.scss';
+
+.Elizabeth{
+    background: #feb41e; 
+    width: 100%; 
+    @include flex (row, nowrap,center,center);
+    position: fixed;  
+    max-height: 5.625rem;     
+    bottom: 0; 
+    &-space{
+        @include flex (row, nowrap,space-between,center);
+        max-width: 75rem; 
+        width: 100%;  
+    }    
+    &-h3{ 
+        font-size: 24px; 
+        color: #000    
+    } 
+    &-icons{
+        @include flex (row, nowrap, center, center);  
+        padding: .9375rem 0;   
+          
+    }
+    &-a{  
+        height: 3.125rem;  
+        width: 9.6875rem;
+           
+    }
+    &-img{ 
+          width: 100%;   
+          height: 100%; 
+          object-fit: contain;   
+    }  
+    &-click{   
+        background: cyan; 
+        position: absolute;       
+        right: 1.875rem;                 
+        border-radius: .3125rem; 
+        padding: 0 9.375rem 0 1.25rem;
+        height: 4.375rem ; 
+        line-height: .9;
+        text-align: left;  
+        transform: translate3d(0,1.875rem,0); 
+        color: #000;
+        top: -7.1875rem;        
+         
+         
+        font-family: 'Indie Flower', cursive;
+        font-size: 26px;   
+        @include flex (row, nowrap, center, center); 
+        
+        &::after{
+            display: block;
+            content: "";
+            position: absolute;
+            right: -1.875rem;
+            bottom: -1.125rem;
+            width: 11.125rem;
+            height: 12.5rem;
+            background: url(../../image/elizabeth.png) no-repeat 0 0; 
+        }
+         
+            
+    } 
+    &-span{
+
+    }
+     
+} 
